@@ -1,5 +1,3 @@
-# Update these with your Supabase details from your project settings > API
-# https://app.supabase.com/project/_/settings/api
 
 NEXT_PUBLIC_SUPABASE_URL=https://nmqxhnerufectiuxkvue.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im5tcXhobmVydWZlY3RpdXhrdnVlIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDU4OTcyNDksImV4cCI6MjA2MTQ3MzI0OX0.4RIvM3GkM9GcUfFRfdCg07x66XLEj_ZKh_5yIaYxw2s
