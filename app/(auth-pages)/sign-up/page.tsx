@@ -5,6 +5,7 @@ import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import Link from "next/link";
 import { SmtpMessage } from "../smtp-message";
+import { GoogleSignInButton } from "@/components/GoogleSignInButton";
 
 export default async function Signup(props: {
   searchParams: Promise<Message>;
@@ -42,6 +43,7 @@ export default async function Signup(props: {
           <SubmitButton formAction={signUpAction} pendingText="Signing up...">
             Sign up
           </SubmitButton>
+          <GoogleSignInButton>Sign up with Google</GoogleSignInButton>
           <FormMessage message={searchParams} />
         </div>
       </form>
